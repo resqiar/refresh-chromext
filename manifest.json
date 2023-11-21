@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Refresh - Chromext",
+    "description": "Let's not talk about desc this time",
+    "version": "1.0",
+    "background": {
+        "service_worker": "worker.js"
+    },
+    "action": {
+        "default_icon": {
+            "16": "static/icon.png"
+        }
+    },
+    "permissions": ["activeTab", "storage"]
+}
